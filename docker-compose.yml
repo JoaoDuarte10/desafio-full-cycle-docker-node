@@ -9,6 +9,7 @@ services:
     command: npm run start
     volumes:
       - .:/usr/src/app
+      - /usr/src/app/node_modules
     expose:
       - 3000
     depends_on:
